@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Workshop-Diy • Kids Apps</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="app kids-mode beginner-mode">
+    <div class="rows-container">
+      <header class="header gallery-top">
+        <div class="brand title-block">
+          <img class="site-logo animated-logo" src="./logo.svg" alt="Workshop-Diy logo" />
+          <div class="brand-text">
+            <h1>Workshop-Diy</h1>
+            <div class="subtitle">Fun mini‑apps for curious kids ✨</div>
+          </div>
+        </div>
+
+        <div class="chip" title="Kid-friendly mode is ON">
+          <span class="chip-dot"></span>
+          Kids Mode
+        </div>
+      </header>
+
+      <div class="mode-selector-container">
+        <div class="mode-selector" role="tablist" aria-label="Filters">
+          <button class="mode-btn active" data-filter="" type="button"><span class="mode-icon">⭐</span> All</button>
+          <button class="mode-btn" data-filter="micro:bit" type="button"><span class="mode-icon">🤖</span> micro:bit</button>
+          <button class="mode-btn" data-filter="camera" type="button"><span class="mode-icon">📸</span> Camera</button>
+          <button class="mode-btn" data-filter="arabic" type="button"><span class="mode-icon">🗣️</span> Arabic</button>
+          <button class="mode-btn" data-filter="classroom" type="button"><span class="mode-icon">🏫</span> Classroom</button>
+        </div>
+      </div>
+
+      <div class="tab-pages">
+        <div class="tab-page active">
+          <div class="form-row" style="margin-bottom:10px;">
+            <input id="q" type="text" placeholder="Search apps… (try “robot” or “emoji”)"/>
+          </div>
+          <div id="grid" class="kids-grid" aria-live="polite"></div>
+          <p id="empty" class="hint" style="padding:0 18px 18px; display:none;">No apps found. Try another word 🧠</p>
+        </div>
+      </div>
+
+      <div class="kids-footer">
+        Made by <strong>Workshop-Diy</strong> • Click “View” to play (if the repo has an index.html).
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
