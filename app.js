@@ -2,6 +2,8 @@ const USER = "abourdim";
 const VIEW = (repo) => `https://raw.githack.com/${USER}/${repo}/main/index.html`;
 
 const APPS = [
+  { name:"all", emoji:"🏠", desc:"The Workshop-Diy hub — browse every mini-app in one place.", tags:["hub","portal","web"] },
+  { name:"bit-bot", emoji:"🤖", desc:"Control a robot with your micro:bit over Bluetooth — drive, steer & play!", tags:["robot","micro:bit","BLE"] },
   { name:"bitPlayground", emoji:"🧩", desc:"Play with the BBC micro:bit from your browser (BLE): LEDs, sensors, servos, gamepad, charts!", tags:["micro:bit","BLE","web"] },
   { name:"magic-hands", emoji:"🪄", desc:"Wave your hands in front of the camera to trigger magic effects like confetti & trails.", tags:["camera","hand-tracking","fun"] },
   { name:"bitmoji-lab", emoji:"😄", desc:"Turn emojis into colorful micro:bit LED art and send them wirelessly.", tags:["emoji","micro:bit","BLE"] },
