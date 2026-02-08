@@ -53,9 +53,15 @@ function card(app){
 
   const sparkles = ["✨","🎈","🎉","⭐","🍭","🌟","🫧"];
   const sp = sparkles[Math.floor(Math.random()*sparkles.length)];
+  const thumb = `./thumbs/${app.name}.png`;
 
   el.innerHTML = `
     <div class="sparkline">${sp}</div>
+    <div class="kids-thumb-wrap">
+      <img class="kids-thumb" src="${thumb}" alt="${app.name} screenshot"
+           onerror="this.parentElement.classList.add('no-thumb')"/>
+      <span class="kids-thumb-emoji">${app.emoji}</span>
+    </div>
     <h3><span class="kids-emoji">${app.emoji}</span> ${app.name}</h3>
     <p class="kids-desc">${app.desc}</p>
 
