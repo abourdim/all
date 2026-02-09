@@ -678,9 +678,11 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
   animation: shimmer 1.5s infinite;
   z-index: 1;
 }
-.kids-thumb.loaded ~ .kids-thumb-wrap::before,
-.kids-thumb-wrap.no-thumb::before { animation: none; }
-.kids-thumb.loaded + .kids-thumb-emoji { display: none; }
+.kids-thumb-wrap.thumb-loaded::before { animation: none; opacity: 0; }
+.kids-thumb-wrap.no-thumb::before { animation: none; opacity: 0; }
+
+/* Hide emoji when thumb loads */
+.kids-thumb-wrap.thumb-loaded .kids-thumb-emoji { display: none; }
 
 /* Emoji fallback */
 .kids-thumb-emoji {
@@ -692,7 +694,9 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
   font-size: 3.5rem;
   z-index: 2;
   animation: float 3s ease-in-out infinite;
+  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card));
 }
+.kids-thumb-wrap.no-thumb { background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card)); }
 .kids-thumb-wrap.no-thumb .kids-thumb { display: none; }
 
 /* Hover overlay */
