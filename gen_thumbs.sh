@@ -1,19 +1,23 @@
-npm install puppeteer
+#!/usr/bin/env bash
+# ============================================================
+# Workshop-Diy — gen_thumbs.sh
+# Quick pipeline: install deps + generate thumbnails
+# ============================================================
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$SCRIPT_DIR"
+
+echo "📦 Installing dependencies..."
+npm install puppeteer --save 2>/dev/null
+
+echo ""
+echo "📸 Generating thumbnails..."
 node screenshot.js
-```
-This creates a `thumbs/` folder with a PNG for each app.
 
-**`app.js`** — Updated cards now show a thumbnail image with a graceful fallback (shows the emoji if the screenshot is missing).
-
-**`styles.css`** — Added thumbnail styles with hover zoom effect and a nice fallback display.
-
-Your project structure should look like:
-```
-index.html
-app.js
-styles.css
-thumbs/
-  all.png
-  bit-bot.png
-  bit-playground.png
-  ...
+echo ""
+echo "✅ Thumbnails ready in ./thumbs/"
+echo ""
+echo "📁 Files generated:"
+ls -la thumbs/ 2>/dev/null || echo "  (no thumbnails yet)"
