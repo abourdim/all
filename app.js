@@ -217,27 +217,14 @@ const INLINE_APPS = [
 /* ============================================================
    INIT
    ============================================================ */
-async function init() {
-  // Try loading from JSON file (works on server), fallback to inline data (works on file://)
-  try {
-    const res = await fetch("./apps-data.json?v=" + Date.now());
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    const data = await res.json();
-    APPS = data.apps.map((a, i) => ({
-      ...a,
-      _num: i + 1,
-      github: `https://github.com/${USER}/${a.name}`,
-      view: VIEW(a.name)
-    }));
-  } catch(e) {
-    console.log("Using inline app data (file:// mode)");
-    APPS = INLINE_APPS.map((a, i) => ({
-      ...a,
-      _num: i + 1,
-      github: `https://github.com/${USER}/${a.name}`,
-      view: VIEW(a.name)
-    }));
-  }
+function init() {
+  // Use inline app data directly (avoids raw.githack cache issues with apps-data.json)
+  APPS = INLINE_APPS.map((a, i) => ({
+    ...a,
+    _num: i + 1,
+    github: `https://github.com/${USER}/${a.name}`,
+    view: VIEW(a.name)
+  }));
 
   applyTheme(THEME);
   applyLang(LANG);
