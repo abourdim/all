@@ -214,6 +214,12 @@ const INLINE_APPS = [
     desc:{ en:"Rocket Shield Vpn — explore and experiment!", fr:"Rocket Shield Vpn — explorez et expérimentez !", ar:"Rocket Shield Vpn — استكشف وجرّب!" }},
   { name:"3d-lab", emoji:"📚", category:"education", badge:"new", tags:["lab"],
     desc:{ en:"3D Lab — explore and experiment!", fr:"3D Lab — explorez et expérimentez !", ar:"3D Lab — استكشف وجرّب!" }},
+  { name:"git-lab", emoji:"📚", category:"education", badge:"new", tags:["git","lab"],
+    desc:{ en:"Git Lab — explore and experiment!", fr:"Git Lab — explorez et expérimentez !", ar:"Git Lab — استكشف وجرّب!" }},
+  { name:"prompt-hero", emoji:"🛠️", category:"tools", badge:"new", tags:["prompt","hero"],
+    desc:{ en:"Prompt Hero — explore and experiment!", fr:"Prompt Hero — explorez et expérimentez !", ar:"Prompt Hero — استكشف وجرّب!" }},
+  { name:"save-our-planet", emoji:"🛠️", category:"tools", badge:"new", tags:["save","our","planet"],
+    desc:{ en:"Save Our Planet — explore and experiment!", fr:"Save Our Planet — explorez et expérimentez !", ar:"Save Our Planet — استكشف وجرّب!" }},
 ];
 
 /* ============================================================
