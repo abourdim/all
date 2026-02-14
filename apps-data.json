@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-14T11:38:42.989898Z",
+  "generated": "2026-02-09T00:00:00Z",
   "user": "abourdim",
   "apps": [
     {
@@ -16,8 +16,7 @@
         "en": "Control a robot with your micro:bit over Bluetooth — drive, steer & play!",
         "fr": "Contrôlez un robot avec votre micro:bit en Bluetooth — conduisez et jouez !",
         "ar": "تحكم في روبوت باستخدام micro:bit عبر البلوتوث — قُد وتوجّه والعب!"
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "magic-hands",
@@ -33,8 +32,7 @@
         "en": "Wave your hands in front of the camera to trigger magic effects like confetti & trails.",
         "fr": "Agitez vos mains devant la caméra pour déclencher des effets magiques comme des confettis et des traînées.",
         "ar": "لوّح بيديك أمام الكاميرا لإطلاق تأثيرات سحرية مثل القصاصات الملونة والمسارات."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "face-quest",
@@ -50,8 +48,7 @@
         "en": "Face Quest — a face game you can play with the camera (privacy-first: runs locally).",
         "fr": "Face Quest — un jeu facial avec la caméra (respect de la vie privée : fonctionne localement).",
         "ar": "Face Quest — لعبة وجوه تلعبها بالكاميرا (الخصوصية أولاً: تعمل محليًا)."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "talking-robot",
@@ -67,8 +64,7 @@
         "en": "A talking robot that can speak, listen, show emotions, and message a micro:bit.",
         "fr": "Un robot parlant qui peut parler, écouter, montrer des émotions et envoyer des messages à un micro:bit.",
         "ar": "روبوت متكلم يمكنه التحدث والاستماع وإظهار المشاعر وإرسال رسائل إلى micro:bit."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "teachable-machine",
@@ -84,8 +80,7 @@
         "en": "Teach gestures/sounds, then control a micro:bit over Bluetooth.",
         "fr": "Enseignez des gestes/sons, puis contrôlez un micro:bit en Bluetooth.",
         "ar": "علّم إيماءات/أصوات، ثم تحكم في micro:bit عبر البلوتوث."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "face-tracking",
@@ -101,8 +96,7 @@
         "en": "Kids Edition face tracking with camera events and optional micro:bit BLE.",
         "fr": "Suivi de visage édition enfants avec événements caméra et micro:bit BLE en option.",
         "ar": "تتبع الوجه إصدار الأطفال مع أحداث الكاميرا ودعم micro:bit BLE اختياري."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "bitmoji-lab",
@@ -118,8 +112,7 @@
         "en": "Turn emojis into colorful micro:bit LED art and send them wirelessly.",
         "fr": "Transformez des emojis en art LED coloré sur micro:bit et envoyez-les sans fil.",
         "ar": "حوّل الرموز التعبيرية إلى فن LED ملوّن على micro:bit وأرسلها لاسلكيًا."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "mission-control",
@@ -135,8 +128,7 @@
         "en": "Mission control: video/chat + buttons to send commands (and optional micro:bit BLE).",
         "fr": "Contrôle de mission : vidéo/chat + boutons pour envoyer des commandes (et micro:bit BLE en option).",
         "ar": "مركز التحكم: فيديو/دردشة + أزرار لإرسال الأوامر (مع micro:bit BLE اختياري)."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "bit-playground",
@@ -152,8 +144,7 @@
         "en": "Play with the BBC micro:bit from your browser (BLE): LEDs, sensors, servos, gamepad, charts!",
         "fr": "Jouez avec le BBC micro:bit depuis votre navigateur (BLE) : LEDs, capteurs, servos, manette, graphiques !",
         "ar": "العب مع BBC micro:bit من متصفحك (BLE): أضواء LED، مستشعرات، محركات، لوحة ألعاب، رسوم بيانية!"
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "rxy",
@@ -169,8 +160,7 @@
         "en": "Build a Bluetooth remote for micro:bit — no coding, just click & play.",
         "fr": "Construisez une télécommande Bluetooth pour micro:bit — sans coder, juste cliquer et jouer.",
         "ar": "أنشئ جهاز تحكم بلوتوث لـ micro:bit — بدون برمجة، فقط انقر والعب."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "pixel-gateway",
@@ -186,8 +176,39 @@
         "en": "A retro pixel art portal — draw, animate, and share pixel creations.",
         "fr": "Un portail pixel art rétro — dessinez, animez et partagez.",
         "ar": "بوابة بيكسل آرت ريترو — ارسم وحرّك وشارك."
-      },
-      "has_thumb": true
+      }
+    },
+    {
+      "name": "wled-kids-lab",
+      "emoji": "💡",
+      "category": "education",
+      "badge": "new",
+      "tags": [
+        "WLED",
+        "LED",
+        "ESP32"
+      ],
+      "desc": {
+        "en": "Control colorful LEDs with WLED — paint your room with light!",
+        "fr": "Contrôlez des LEDs colorées avec WLED — peignez votre chambre avec de la lumière !",
+        "ar": "تحكم في أضواء LED ملونة مع WLED — لوّن غرفتك بالضوء!"
+      }
+    },
+    {
+      "name": "esp32-c3-kids-lab",
+      "emoji": "⚡",
+      "category": "education",
+      "badge": "new",
+      "tags": [
+        "ESP32",
+        "hardware",
+        "IoT"
+      ],
+      "desc": {
+        "en": "Hack with the ESP32-C3 — blink LEDs, read sensors, build IoT projects!",
+        "fr": "Hackez avec l ESP32-C3 — LEDs, capteurs, projets IoT !",
+        "ar": "اخترق مع ESP32-C3 — أضواء LED، مستشعرات، مشاريع IoT!"
+      }
     },
     {
       "name": "crypto-academy",
@@ -203,8 +224,7 @@
         "en": "Learn about cryptocurrency and blockchain with interactive lessons.",
         "fr": "Apprenez la cryptomonnaie et la blockchain avec des leçons interactives.",
         "ar": "تعلم عن العملات المشفرة وتقنية البلوكتشين من خلال دروس تفاعلية."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "pentest-lab",
@@ -220,8 +240,23 @@
         "en": "A beginner-friendly penetration testing lab to learn cybersecurity basics.",
         "fr": "Un laboratoire de test d'intrusion pour débutants pour apprendre les bases de la cybersécurité.",
         "ar": "مختبر اختبار اختراق للمبتدئين لتعلم أساسيات الأمن السيبراني."
-      },
-      "has_thumb": true
+      }
+    },
+    {
+      "name": "linux-kids-lab",
+      "emoji": "🐧",
+      "category": "education",
+      "badge": "new",
+      "tags": [
+        "linux",
+        "terminal",
+        "education"
+      ],
+      "desc": {
+        "en": "Learn Linux commands in a fun, safe sandbox — become a terminal ninja!",
+        "fr": "Apprenez les commandes Linux dans un bac à sable fun — devenez un ninja du terminal !",
+        "ar": "تعلم أوامر لينكس في بيئة آمنة وممتعة — كن نينجا الطرفية!"
+      }
     },
     {
       "name": "production-chain",
@@ -237,8 +272,7 @@
         "en": "Visualize and simulate a production chain — from raw materials to finished product.",
         "fr": "Visualisez et simulez une chaîne de production — des matières premières au produit fini.",
         "ar": "تصوّر ومحاكاة سلسلة إنتاج — من المواد الخام إلى المنتج النهائي."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "classroom",
@@ -254,8 +288,7 @@
         "en": "PeerJS Cloud Classroom Lite — simple room-code classroom for up to ~12 students.",
         "fr": "PeerJS Cloud Classroom Lite — salle de classe simple avec code de salle pour ~12 élèves.",
         "ar": "PeerJS Cloud Classroom Lite — فصل دراسي بسيط برمز غرفة لما يصل إلى 12 طالب."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "arabic-translator",
@@ -271,8 +304,7 @@
         "en": "Arabic translator app that runs entirely in the browser — no server, no API keys.",
         "fr": "Traducteur arabe qui fonctionne entièrement dans le navigateur — sans serveur, sans clés API.",
         "ar": "تطبيق مترجم عربي يعمل بالكامل في المتصفح — بدون خادم وبدون مفاتيح API."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "arabic-speaker",
@@ -288,8 +320,7 @@
         "en": "Arabic TTS + STT in the browser using Web Speech API (no backend).",
         "fr": "Synthèse et reconnaissance vocale arabe dans le navigateur avec Web Speech API (sans backend).",
         "ar": "تحويل النص إلى كلام والكلام إلى نص بالعربية في المتصفح باستخدام Web Speech API (بدون خادم)."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "piper-arabic-tts",
@@ -305,8 +336,7 @@
         "en": "Arabic TTS demo using Piper (WASM). (May need hosting for model files.)",
         "fr": "Démo de synthèse vocale arabe avec Piper (WASM). (Peut nécessiter un hébergement pour les fichiers du modèle.)",
         "ar": "عرض تجريبي لتحويل النص إلى كلام بالعربية باستخدام Piper (WASM). (قد يحتاج استضافة لملفات النموذج.)"
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "usb-logger",
@@ -322,8 +352,7 @@
         "en": "Talk to your micro:bit over USB serial from the browser (send/receive + speed test).",
         "fr": "Communiquez avec votre micro:bit via USB série depuis le navigateur (envoi/réception + test de vitesse).",
         "ar": "تواصل مع micro:bit عبر USB التسلسلي من المتصفح (إرسال/استقبال + اختبار السرعة)."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "ble-logger",
@@ -339,8 +368,7 @@
         "en": "Bluetooth logger / playground for micro:bit experiments.",
         "fr": "Enregistreur Bluetooth / terrain de jeu pour expériences micro:bit.",
         "ar": "مسجل بلوتوث / ساحة لعب لتجارب micro:bit."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "claude-toolkit",
@@ -356,8 +384,7 @@
         "en": "A toolkit for building apps and workflows powered by Claude AI.",
         "fr": "Une boîte à outils pour créer des apps et des flux de travail avec Claude AI.",
         "ar": "مجموعة أدوات لبناء التطبيقات وسير العمل باستخدام Claude AI."
-      },
-      "has_thumb": true
+      }
     },
     {
       "name": "puppeteer-playground",
@@ -373,8 +400,23 @@
         "en": "Experiment with Puppeteer for browser automation, scraping & testing.",
         "fr": "Expérimentez avec Puppeteer pour l'automatisation du navigateur, le scraping et les tests.",
         "ar": "جرّب Puppeteer لأتمتة المتصفح والكشط والاختبار."
-      },
-      "has_thumb": true
+      }
+    },
+    {
+      "name": "workshop-diy",
+      "emoji": "🏗️",
+      "category": "tools",
+      "badge": "new",
+      "tags": [
+        "website",
+        "workshop",
+        "hub"
+      ],
+      "desc": {
+        "en": "The official Workshop-Diy website — projects, tutorials & resources.",
+        "fr": "Le site officiel Workshop-Diy — projets, tutoriels & ressources.",
+        "ar": "موقع Workshop-Diy الرسمي — مشاريع، دروس وموارد."
+      }
     },
     {
       "name": "all",
@@ -390,8 +432,7 @@
         "en": "The Workshop-Diy hub — browse every mini-app in one place.",
         "fr": "Le hub Workshop-Diy — explorez toutes les mini-apps au même endroit.",
         "ar": "مركز Workshop-Diy — تصفح جميع التطبيقات المصغرة في مكان واحد."
-      },
-      "has_thumb": true
+      }
     }
   ]
 }

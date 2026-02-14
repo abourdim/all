@@ -178,10 +178,16 @@ const INLINE_APPS = [
     desc:{ en:"Build a Bluetooth remote for micro:bit — no coding, just click & play.", fr:"Construisez une télécommande Bluetooth pour micro:bit — sans coder.", ar:"أنشئ جهاز تحكم بلوتوث لـ micro:bit — بدون برمجة." }},
   { name:"pixel-gateway", emoji:"🕹️", category:"tools", badge:"new", tags:["retro","pixel","fun"],
     desc:{ en:"A retro pixel art portal — draw, animate, and share pixel creations.", fr:"Un portail pixel art rétro — dessinez, animez et partagez.", ar:"بوابة بيكسل آرت ريترو — ارسم وحرّك وشارك." }},
+  { name:"wled-kids-lab", emoji:"💡", category:"education", badge:"new", tags:["WLED","LED","ESP32"],
+    desc:{ en:"Control colorful LEDs with WLED — paint your room with light!", fr:"Contrôlez des LEDs colorées avec WLED — peignez votre chambre avec de la lumière !", ar:"تحكم في أضواء LED ملونة مع WLED — لوّن غرفتك بالضوء!" }},
+  { name:"esp32-c3-kids-lab", emoji:"⚡", category:"education", badge:"new", tags:["ESP32","hardware","IoT"],
+    desc:{ en:"Hack with the ESP32-C3 — blink LEDs, read sensors, build IoT projects!", fr:"Hackez avec l'ESP32-C3 — LEDs, capteurs, projets IoT !", ar:"اخترق مع ESP32-C3 — أضواء LED، مستشعرات، مشاريع IoT!" }},
   { name:"crypto-academy", emoji:"💰", category:"education", badge:"", tags:["crypto","blockchain","education"],
     desc:{ en:"Learn about cryptocurrency and blockchain with interactive lessons.", fr:"Apprenez la cryptomonnaie et la blockchain avec des leçons interactives.", ar:"تعلم عن العملات المشفرة والبلوكتشين." }},
   { name:"pentest-lab", emoji:"🔐", category:"education", badge:"", tags:["security","pentest","education"],
     desc:{ en:"A beginner-friendly penetration testing lab to learn cybersecurity basics.", fr:"Un labo de test d'intrusion pour débutants.", ar:"مختبر اختبار اختراق للمبتدئين." }},
+  { name:"linux-kids-lab", emoji:"🐧", category:"education", badge:"new", tags:["linux","terminal","education"],
+    desc:{ en:"Learn Linux commands in a fun, safe sandbox — become a terminal ninja!", fr:"Apprenez les commandes Linux dans un bac à sable fun — devenez un ninja du terminal !", ar:"تعلم أوامر لينكس في بيئة آمنة وممتعة — كن نينجا الطرفية!" }},
   { name:"production-chain", emoji:"🏭", category:"education", badge:"", tags:["simulation","industry","education"],
     desc:{ en:"Visualize and simulate a production chain — from raw materials to finished product.", fr:"Visualisez et simulez une chaîne de production.", ar:"تصوّر ومحاكاة سلسلة إنتاج." }},
   // === CLASSROOM & ARABIC ===
@@ -202,6 +208,8 @@ const INLINE_APPS = [
     desc:{ en:"A toolkit for building apps and workflows powered by Claude AI.", fr:"Une boîte à outils pour créer des apps avec Claude AI.", ar:"مجموعة أدوات لبناء التطبيقات باستخدام Claude AI." }},
   { name:"puppeteer-playground", emoji:"🎭", category:"tools", badge:"", tags:["puppeteer","automation","web"],
     desc:{ en:"Experiment with Puppeteer for browser automation, scraping & testing.", fr:"Expérimentez avec Puppeteer pour l'automatisation du navigateur.", ar:"جرّب Puppeteer لأتمتة المتصفح." }},
+  { name:"workshop-diy", emoji:"🏗️", category:"tools", badge:"new", tags:["website","workshop","hub"],
+    desc:{ en:"The official Workshop-Diy website — projects, tutorials & resources.", fr:"Le site officiel Workshop-Diy — projets, tutoriels & ressources.", ar:"موقع Workshop-Diy الرسمي — مشاريع، دروس وموارد." }},
   { name:"all", emoji:"🏠", category:"tools", badge:"hub", tags:["hub","portal","web"],
     desc:{ en:"The Workshop-Diy hub — browse every mini-app in one place.", fr:"Le hub Workshop-Diy — explorez toutes les mini-apps au même endroit.", ar:"مركز Workshop-Diy — تصفح جميع التطبيقات المصغرة في مكان واحد." }}
 ];
