@@ -220,7 +220,7 @@ const INLINE_APPS = [
 async function init() {
   // Try loading from JSON file (works on server), fallback to inline data (works on file://)
   try {
-    const res = await fetch("./apps-data.json");
+    const res = await fetch("./apps-data.json?v=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     APPS = data.apps.map((a, i) => ({
