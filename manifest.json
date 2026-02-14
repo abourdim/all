@@ -1,17 +1,13 @@
 {
-  "generated": "2026-02-09T04:51:36.194345Z",
+  "generated": "2026-02-14T11:38:43.026774Z",
   "thumbs": {
-    "\u001b[0;34m[build]\u001b[0m Fetching repos for \u001b[0;36mabourdim\u001b[0m...": {
-      "file": "\u001b[0;34m[build]\u001b[0m Fetching repos for \u001b[0;36mabourdim\u001b[0m....png",
-      "size": 56624
-    },
     "all": {
       "file": "all.png",
-      "size": 600436
+      "size": 152988
     },
     "arabic-speaker": {
       "file": "arabic-speaker.png",
-      "size": 354749
+      "size": 354057
     },
     "arabic-translator": {
       "file": "arabic-translator.png",
@@ -23,15 +19,15 @@
     },
     "bit-playground": {
       "file": "bit-playground.png",
-      "size": 183460
+      "size": 183464
     },
     "bitmoji-lab": {
       "file": "bitmoji-lab.png",
-      "size": 410566
+      "size": 410564
     },
     "ble-logger": {
       "file": "ble-logger.png",
-      "size": 263172
+      "size": 265689
     },
     "classroom": {
       "file": "classroom.png",
@@ -43,23 +39,23 @@
     },
     "crypto-academy": {
       "file": "crypto-academy.png",
-      "size": 123903
+      "size": 123882
     },
     "face-quest": {
       "file": "face-quest.png",
-      "size": 361296
+      "size": 356889
     },
     "face-tracking": {
       "file": "face-tracking.png",
-      "size": 208437
+      "size": 208488
     },
     "magic-hands": {
       "file": "magic-hands.png",
-      "size": 223166
+      "size": 223135
     },
     "mission-control": {
       "file": "mission-control.png",
-      "size": 260961
+      "size": 260043
     },
     "pentest-lab": {
       "file": "pentest-lab.png",
@@ -79,23 +75,23 @@
     },
     "puppeteer-playground": {
       "file": "puppeteer-playground.png",
-      "size": 198350
+      "size": 198269
     },
     "rxy": {
       "file": "rxy.png",
-      "size": 44539
+      "size": 44540
     },
     "talking-robot": {
       "file": "talking-robot.png",
-      "size": 399713
+      "size": 399877
     },
     "teachable-machine": {
       "file": "teachable-machine.png",
-      "size": 402823
+      "size": 405513
     },
     "usb-logger": {
       "file": "usb-logger.png",
-      "size": 266623
+      "size": 265696
     }
   }
 }
