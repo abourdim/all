@@ -52,7 +52,7 @@
     },
     {
       "name": "talking-robot",
-      "emoji": "🤖",
+      "emoji": "💬",
       "category": "microbit",
       "badge": "",
       "tags": [
@@ -164,7 +164,7 @@
     },
     {
       "name": "pixel-gateway",
-      "emoji": "🕹️",
+      "emoji": "🎨",
       "category": "tools",
       "badge": "new",
       "tags": [
@@ -212,7 +212,7 @@
     },
     {
       "name": "crypto-academy",
-      "emoji": "💰",
+      "emoji": "🪙",
       "category": "education",
       "badge": "",
       "tags": [
@@ -292,7 +292,7 @@
     },
     {
       "name": "arabic-translator",
-      "emoji": "📖",
+      "emoji": "🌐",
       "category": "arabic",
       "badge": "",
       "tags": [
@@ -436,7 +436,7 @@
     },
     {
       "name": "circuit-lab",
-      "emoji": "📚",
+      "emoji": "🔋",
       "category": "education",
       "badge": "new",
       "tags": [
@@ -451,7 +451,7 @@
     },
     {
       "name": "rocket-shield-vpn",
-      "emoji": "🛠️",
+      "emoji": "🛡️",
       "category": "tools",
       "badge": "new",
       "tags": [
@@ -467,7 +467,7 @@
     },
     {
       "name": "3d-lab",
-      "emoji": "📚",
+      "emoji": "🧊",
       "category": "education",
       "badge": "new",
       "tags": [
@@ -481,7 +481,7 @@
     },
     {
       "name": "git-lab",
-      "emoji": "📚",
+      "emoji": "🔀",
       "category": "education",
       "badge": "new",
       "tags": [
@@ -496,7 +496,7 @@
     },
     {
       "name": "prompt-hero",
-      "emoji": "🛠️",
+      "emoji": "✨",
       "category": "tools",
       "badge": "new",
       "tags": [
@@ -511,7 +511,7 @@
     },
     {
       "name": "save-our-planet",
-      "emoji": "🛠️",
+      "emoji": "🌍",
       "category": "tools",
       "badge": "new",
       "tags": [
@@ -527,7 +527,7 @@
     },
     {
       "name": "ops-catalog",
-      "emoji": "🛠️",
+      "emoji": "📋",
       "category": "tools",
       "badge": "new",
       "tags": [
@@ -542,7 +542,7 @@
     },
     {
       "name": "code-kids",
-      "emoji": "🛠️",
+      "emoji": "💻",
       "category": "tools",
       "badge": "new",
       "tags": [
@@ -557,7 +557,7 @@
     },
     {
       "name": "smart-home",
-      "emoji": "🛠️",
+      "emoji": "🏡",
       "category": "tools",
       "badge": "new",
       "tags": [
