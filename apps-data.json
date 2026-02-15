@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-14T19:38:02.540113Z",
+  "generated": "2026-02-15T07:10:00.471564Z",
   "user": "abourdim",
   "apps": [
     {
@@ -538,6 +538,36 @@
         "en": "Ops Catalog — explore and experiment!",
         "fr": "Ops Catalog — explorez et expérimentez !",
         "ar": "Ops Catalog — استكشف وجرّب!"
+      }
+    },
+    {
+      "name": "code-kids",
+      "emoji": "🛠️",
+      "category": "tools",
+      "badge": "new",
+      "tags": [
+        "code",
+        "kids"
+      ],
+      "desc": {
+        "en": "Code Kids — explore and experiment!",
+        "fr": "Code Kids — explorez et expérimentez !",
+        "ar": "Code Kids — استكشف وجرّب!"
+      }
+    },
+    {
+      "name": "smart-home",
+      "emoji": "🛠️",
+      "category": "tools",
+      "badge": "new",
+      "tags": [
+        "smart",
+        "home"
+      ],
+      "desc": {
+        "en": "Smart Home — explore and experiment!",
+        "fr": "Smart Home — explorez et expérimentez !",
+        "ar": "Smart Home — استكشف وجرّب!"
       }
     }
   ]
