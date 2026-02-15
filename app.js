@@ -233,6 +233,8 @@ const INLINE_APPS = [
     desc:{ en:"Code Kids — explore and experiment!", fr:"Code Kids — explorez et expérimentez !", ar:"Code Kids — استكشف وجرّب!" }},
   { name:"smart-home", emoji:"🏡", category:"tools", badge:"new", tags:["smart","home"],
     desc:{ en:"Smart Home — explore and experiment!", fr:"Smart Home — explorez et expérimentez !", ar:"Smart Home — استكشف وجرّب!" }},
+  { name:"makecode-adventures", emoji:"🛠️", category:"tools", badge:"new", tags:["makecode","adventures"],
+    desc:{ en:"Makecode Adventures — explore and experiment!", fr:"Makecode Adventures — explorez et expérimentez !", ar:"Makecode Adventures — استكشف وجرّب!" }},
 ];
 
 /* ============================================================

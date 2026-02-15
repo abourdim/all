@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-15T07:10:00.471564Z",
+  "generated": "2026-02-15T10:43:28.138214Z",
   "user": "abourdim",
   "apps": [
     {
@@ -568,6 +568,21 @@
         "en": "Smart Home — explore and experiment!",
         "fr": "Smart Home — explorez et expérimentez !",
         "ar": "Smart Home — استكشف وجرّب!"
+      }
+    },
+    {
+      "name": "makecode-adventures",
+      "emoji": "🛠️",
+      "category": "tools",
+      "badge": "new",
+      "tags": [
+        "makecode",
+        "adventures"
+      ],
+      "desc": {
+        "en": "Makecode Adventures — explore and experiment!",
+        "fr": "Makecode Adventures — explorez et expérimentez !",
+        "ar": "Makecode Adventures — استكشف وجرّب!"
       }
     }
   ]
