@@ -237,6 +237,8 @@ const INLINE_APPS = [
     desc:{ en:"Makecode Adventures — explore and experiment!", fr:"Makecode Adventures — explorez et expérimentez !", ar:"Makecode Adventures — استكشف وجرّب!" }},
   { name:"bit-54-activities", emoji:"🤖", category:"microbit", badge:"new", tags:["bit","activities"],
     desc:{ en:"Bit 54 Activities — explore and experiment!", fr:"Bit 54 Activities — explorez et expérimentez !", ar:"Bit 54 Activities — استكشف وجرّب!" }},
+  { name:"crypto-vault", emoji:"💰", category:"education", badge:"new", tags:["crypto","vault"],
+    desc:{ en:"Crypto Vault — explore and experiment!", fr:"Crypto Vault — explorez et expérimentez !", ar:"Crypto Vault — استكشف وجرّب!" }},
 ];
 
 /* ============================================================

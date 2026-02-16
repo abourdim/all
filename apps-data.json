@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-15T19:33:31.993925Z",
+  "generated": "2026-02-16T06:38:06.244694Z",
   "user": "abourdim",
   "apps": [
     {
@@ -598,6 +598,21 @@
         "en": "Bit 54 Activities — explore and experiment!",
         "fr": "Bit 54 Activities — explorez et expérimentez !",
         "ar": "Bit 54 Activities — استكشف وجرّب!"
+      }
+    },
+    {
+      "name": "crypto-vault",
+      "emoji": "💰",
+      "category": "education",
+      "badge": "new",
+      "tags": [
+        "crypto",
+        "vault"
+      ],
+      "desc": {
+        "en": "Crypto Vault — explore and experiment!",
+        "fr": "Crypto Vault — explorez et expérimentez !",
+        "ar": "Crypto Vault — استكشف وجرّب!"
       }
     }
   ]
