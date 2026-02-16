@@ -143,7 +143,7 @@ const empty = document.getElementById("empty");
 const q = document.getElementById("q");
 const clearBtn = document.getElementById("clear-search");
 const filterButtons = [...document.querySelectorAll(".mode-btn")];
-const statusFilterButtons = [...document.querySelectorAll(".status-btn")];
+const statusFilterButtons = [...document.querySelectorAll(".st-tog")];
 const langButtons = [...document.querySelectorAll(".lang-btn")];
 const themeButtons = [...document.querySelectorAll(".theme-btn")];
 const viewButtons = [...document.querySelectorAll(".view-btn")];
@@ -694,11 +694,6 @@ function updateFilterCounts() {
   document.querySelectorAll("[data-count-filter]").forEach(el => {
     const cat = el.dataset.countFilter;
     const count = cat ? APPS.filter(a => a.category === cat).length : APPS.length;
-    el.textContent = count;
-  });
-  document.querySelectorAll("[data-count-status]").forEach(el => {
-    const st = el.dataset.countStatus;
-    const count = st ? APPS.filter(a => a.status === st).length : APPS.length;
     el.textContent = count;
   });
 }

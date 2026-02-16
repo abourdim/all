@@ -109,32 +109,6 @@
         </div>
       </div>
 
-      <!-- ===== STATUS FILTER BAR ===== -->
-      <div class="status-selector-container">
-        <div class="status-selector" role="tablist" aria-label="Status filter">
-          <button class="status-btn active" data-status="" type="button">
-            <span class="status-icon">⭐</span> <span data-i18n="status_filter_all"></span>
-            <span class="status-count" data-count-status=""></span>
-          </button>
-          <button class="status-btn" data-status="stable" type="button">
-            <span class="status-icon">✅</span> <span data-i18n="status_filter_stable"></span>
-            <span class="status-count" data-count-status="stable"></span>
-          </button>
-          <button class="status-btn" data-status="beta" type="button">
-            <span class="status-icon">🧪</span> <span data-i18n="status_filter_beta"></span>
-            <span class="status-count" data-count-status="beta"></span>
-          </button>
-          <button class="status-btn" data-status="dev" type="button">
-            <span class="status-icon">🔧</span> <span data-i18n="status_filter_dev"></span>
-            <span class="status-count" data-count-status="dev"></span>
-          </button>
-          <button class="status-btn" data-status="offline" type="button">
-            <span class="status-icon">🚫</span> <span data-i18n="status_filter_offline"></span>
-            <span class="status-count" data-count-status="offline"></span>
-          </button>
-        </div>
-      </div>
-
       <!-- ===== SEARCH + CONTROLS ===== -->
       <div class="search-row">
         <div class="search-wrap">
@@ -143,6 +117,13 @@
           <button id="clear-search" class="clear-btn" style="display:none" title="Clear">✕</button>
         </div>
         <button id="shuffle-btn" class="action-btn" title="Surprise me!">🔀 <span data-i18n="shuffle"></span></button>
+        <div class="status-toggles" role="group" aria-label="Status filter">
+          <button class="st-tog active" data-status="" title="All">⭐</button>
+          <button class="st-tog" data-status="stable" title="Stable">✅</button>
+          <button class="st-tog" data-status="beta" title="Beta">🧪</button>
+          <button class="st-tog" data-status="dev" title="Dev">🔧</button>
+          <button class="st-tog" data-status="offline" title="Offline">🚫</button>
+        </div>
         <div class="view-toggle">
           <button class="view-btn active" data-view="grid" title="Grid view">▦</button>
           <button class="view-btn" data-view="list" title="List view">☰</button>
