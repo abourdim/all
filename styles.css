@@ -271,7 +271,12 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
   --medina-teal-deep: #0f5e47;
   --medina-ivory: #f2e8d0;
   --medina-night: #0b1a1a;
-  --ff-medina: 'Amiri', 'Noto Sans Arabic', serif;
+  --ff-medina: 'El Messiri', 'Noto Sans Arabic', sans-serif;
+}
+
+/* ── Global El Messiri font ── */
+[data-theme="islamic"] * {
+  font-family: var(--ff-medina) !important;
 }
 
 /* ── Geometric tiled background ── */
